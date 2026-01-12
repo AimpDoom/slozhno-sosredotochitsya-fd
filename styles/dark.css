@@ -20,7 +20,6 @@ html.theme-dark {
 
 
 @media (prefers-color-scheme: dark) {
-
   :root {
     --text-color: #F1B2CE;
     --background-color: #000028;
