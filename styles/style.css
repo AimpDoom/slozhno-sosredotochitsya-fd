@@ -166,6 +166,7 @@
   .heading__title {
     justify-self: start;
     margin-left: -20px;
+    font-size: var(--accent-heading-desktop);
   }
 
   .header__text {
@@ -422,6 +423,12 @@
 
 .word-link:focus-visible {
   outline: 1px solid;
+}
+
+@media (min-width: 768px) {
+  .footer__title {
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  }
 }
 
 @media (min-width: 1024px) {
